@@ -1,7 +1,7 @@
 function firstChar(text) {
   // your code here
 	 if(text==="") return '';
-	let str="";
+	let str='';
 	str+=text.charAt(0);
 	return str;
   }
