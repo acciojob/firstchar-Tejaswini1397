@@ -1,5 +1,6 @@
 function firstChar(text) {
   // your code here
+	if(text==="") return "";
 	return text[0];
 }
 
@@ -7,4 +8,6 @@ function firstChar(text) {
 
 const text = prompt("Enter text:");
 alert(firstChar(text));
+
+
 
