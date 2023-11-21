@@ -1,9 +1,13 @@
 function firstChar(text) {
   // your code here
-	if(text==="") return "";
+	 if(text==="") return '';
 	return text[0];
-}
+  }
 
+
+
+
+	
 // Do not change the code below
 
 const text = prompt("Enter text:");
